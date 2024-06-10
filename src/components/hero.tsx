@@ -1,7 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip'
 import { Button } from './ui/button'
-import { BadgeCheckIcon } from 'lucide-react'
 import { data } from '../constants'
 
 export function Hero() {

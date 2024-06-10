@@ -23,7 +23,7 @@ import { PNPMIcon } from '@/components/icons/tags/pnpm'
 import { VercelIcon } from '@/components/icons/tags/vercel'
 import { BasehubIcon } from '@/components/icons/tags/basehub'
 import { GraphQLIcon } from '@/components/icons/tags/graphql'
-import { MailIcon, InstagramIcon } from 'lucide-react'
+import { MailIcon } from 'lucide-react'
 
 export const AVATAR = {
   name: 'Evans Dube',
