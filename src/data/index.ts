@@ -1,34 +1,34 @@
-import { GitHubIcon } from '@/components/icons/github'
-import { LinkedInIcon } from '@/components/icons/linkedin'
-import { XIcon } from '@/components/icons/x'
-import { CSSIcon } from '@/components/icons/tags/css'
-import { HTMLIcon } from '@/components/icons/tags/html'
-import { JavaScriptIcon } from '@/components/icons/tags/javascript'
-import { NextJSIcon } from '@/components/icons/tags/nextjs'
-import { OpenAIIcon } from '@/components/icons/tags/openai'
-import { ReactIcon } from '@/components/icons/tags/react'
-import { SWCIcon } from '@/components/icons/tags/swc'
-import { TypeScriptIcon } from '@/components/icons/tags/typescript'
-import { ViteIcon } from '@/components/icons/tags/vite'
-import { ShadcnIcon } from '@/components/icons/tags/shadcn-ui'
-import { TailwindCSSIcon } from '@/components/icons/tags/tailwind-css'
-import { AstroIcon } from '@/components/icons/tags/astro'
-import { SvelteIcon } from '@/components/icons/tags/svelte'
-import { NodeJSIcon } from '@/components/icons/tags/nodejs'
-import { VitestIcon } from '@/components/icons/tags/vitest'
-import { BootstrapIcon } from '@/components/icons/tags/bootstrap'
-import { SupabaseIcon } from '@/components/icons/tags/supabase'
-import { ReduxIcon } from '@/components/icons/tags/redux'
-import { PNPMIcon } from '@/components/icons/tags/pnpm'
-import { VercelIcon } from '@/components/icons/tags/vercel'
-import { BasehubIcon } from '@/components/icons/tags/basehub'
-import { GraphQLIcon } from '@/components/icons/tags/graphql'
-import { MailIcon } from 'lucide-react'
+import { GitHubIcon } from '@/components/icons/github';
+import { LinkedInIcon } from '@/components/icons/linkedin';
+import { XIcon } from '@/components/icons/x';
+import { CSSIcon } from '@/components/icons/tags/css';
+import { HTMLIcon } from '@/components/icons/tags/html';
+import { JavaScriptIcon } from '@/components/icons/tags/javascript';
+import { NextJSIcon } from '@/components/icons/tags/nextjs';
+import { OpenAIIcon } from '@/components/icons/tags/openai';
+import { ReactIcon } from '@/components/icons/tags/react';
+import { SWCIcon } from '@/components/icons/tags/swc';
+import { TypeScriptIcon } from '@/components/icons/tags/typescript';
+import { ViteIcon } from '@/components/icons/tags/vite';
+import { ShadcnIcon } from '@/components/icons/tags/shadcn-ui';
+import { TailwindCSSIcon } from '@/components/icons/tags/tailwind-css';
+import { AstroIcon } from '@/components/icons/tags/astro';
+import { SvelteIcon } from '@/components/icons/tags/svelte';
+import { NodeJSIcon } from '@/components/icons/tags/nodejs';
+import { VitestIcon } from '@/components/icons/tags/vitest';
+import { BootstrapIcon } from '@/components/icons/tags/bootstrap';
+import { SupabaseIcon } from '@/components/icons/tags/supabase';
+import { ReduxIcon } from '@/components/icons/tags/redux';
+import { PNPMIcon } from '@/components/icons/tags/pnpm';
+import { VercelIcon } from '@/components/icons/tags/vercel';
+import { BasehubIcon } from '@/components/icons/tags/basehub';
+import { GraphQLIcon } from '@/components/icons/tags/graphql';
+import { MailIcon } from 'lucide-react';
 
 export const AVATAR = {
   name: 'Evans Dube',
   initials: 'ED'
-}
+};
 
 export const ABOUT = {
   title: `Frontend Engineer, Problem Solver and Enthusiastic Learner.
@@ -36,7 +36,7 @@ export const ABOUT = {
   description: `Passionate about creating innovative tech solutions for impact.
  Focused on leveraging advanced frontend technologies to enhance accessibility and performance in web applications.
   My main goal is to enhance user experience, making the web a better place for everyone.`
-}
+};
 
 export const LINKS = [
   {
@@ -59,7 +59,7 @@ export const LINKS = [
     url: `mailto:${process.env.EMAIL_RECEIVER}`,
     icon: MailIcon
   }
-]
+];
 
 export const CAREER = [
   {
@@ -70,7 +70,7 @@ export const CAREER = [
     start: 'Jul, 2022',
     end: 'Present',
     description:
-      'Integrating new features into the datagrid built on top of AG Grid. Customising interactive dashboards to accommodate various data types, reporting formats, and visualisation scenarios specific to private market investments.'
+      'Building and modernising the iLEVEL Portlet Builder within Market Intelligence. Shipping new AG Grid datagrid capabilities and interactive dashboards for private-markets reporting across diverse data types, formats, and visualisation needs'
   },
   {
     company: 'Purplebricks',
@@ -79,7 +79,8 @@ export const CAREER = [
     title: 'Mid-level Front End Engineer',
     start: 'Sept, 2021',
     end: 'Jul 2022',
-    description: 'Involved in several greenfield and brownfield projects focused on enhancing revenue streams.'
+    description:
+      'Involved in several greenfield and brownfield projects focused on enhancing revenue streams.'
   },
   {
     company: '5874 Design Ltd',
@@ -98,7 +99,8 @@ export const CAREER = [
     title: 'Front End Developer',
     start: 'Sept, 2018',
     end: 'Apr, 2021',
-    description: 'Responsible for transforming web design concepts into fully functional websites using the latest front-end technologies.'
+    description:
+      'Responsible for transforming web design concepts into fully functional websites using the latest front-end technologies.'
   },
   {
     company: 'DHL & Jaguar Land Rover',
@@ -107,7 +109,8 @@ export const CAREER = [
     title: 'Internal Project Planner',
     start: 'Nov, 2014',
     end: 'Dec, 2017',
-    description: 'Project Planner supporting the DHL operations at Jaguar Land Rover’s main production plant. Part of a team to successfully implement five new cars introductions over 3 years.'
+    description:
+      'Project Planner supporting the DHL operations at Jaguar Land Rover’s main production plant. Part of a team to successfully implement five new cars introductions over 3 years.'
   },
   {
     company: 'Sunmaia Internet Ltd',
@@ -115,9 +118,10 @@ export const CAREER = [
     title: 'Junior Web Developer',
     start: 'May, 2014',
     end: 'Oct, 2014',
-    description: 'Custom Wordpress theme developmen and Front-end development. Migrating from legendary code and refactoring.'
+    description:
+      'Custom Wordpress theme developmen and Front-end development. Migrating from legendary code and refactoring.'
   }
-]
+];
 
 const TAGS = {
   NEXT: {
@@ -208,17 +212,22 @@ const TAGS = {
     name: 'GraphQL',
     icon: GraphQLIcon
   }
-}
+};
 
 export const PROJECTS = [
   {
+    title: 'SwapMyFit',
+    tags: [TAGS.NEXT, TAGS.REACT, TAGS.TYPESCRIPT, TAGS.TAILWIND],
+    description:
+      'Sustainable fashion marketplace for clothing swaps and exchanges',
+    link: {
+      preview: 'https://www.swapmyfit.app/'
+    },
+    image: '/images/swapmyfit.png'
+  },
+  {
     title: 'Teacher Tee',
-    tags: [
-      TAGS.TYPESCRIPT,
-      TAGS.JAVASCRIPT,
-      TAGS.HTML,
-      TAGS.CSS
-    ],
+    tags: [TAGS.TYPESCRIPT, TAGS.JAVASCRIPT, TAGS.HTML, TAGS.CSS],
     description: 'Online resource for ESL Teachers',
     link: {
       preview: 'https://teachertee.com/'
@@ -227,14 +236,8 @@ export const PROJECTS = [
   },
   {
     title: 'The Venari',
-    tags: [
-      TAGS.TYPESCRIPT,
-      TAGS.JAVASCRIPT,
-      TAGS.HTML,
-      TAGS.CSS
-    ],
-    description:
-      'A Job Board for Candidates & Employers.',
+    tags: [TAGS.TYPESCRIPT, TAGS.JAVASCRIPT, TAGS.HTML, TAGS.CSS],
+    description: 'A Job Board for Candidates & Employers.',
     link: {
       preview: 'https://thevenari.com/'
     },
@@ -242,24 +245,19 @@ export const PROJECTS = [
   },
   {
     title: 'Simple Personality Quiz',
-    tags: [
-      TAGS.JAVASCRIPT,
-      TAGS.HTML,
-      TAGS.CSS
-    ],
+    tags: [TAGS.JAVASCRIPT, TAGS.HTML, TAGS.CSS],
     description:
       'A simple chat app that uses the OpenAI API and Vercel AI SDK to chat with Darth Vader.',
     link: {
-      github: 'https://github.com/edubz99/Simple-Personality-Quiz'
+      github: 'https://github.com/edubz99/Simple-Personality-Quiz',
+      preview: 'https://codepen.io/edubz99/pen/PeRjNb'
     },
-    image: '/images/personality_quiz.png',
-    preview: 'https://codepen.io/edubz99/pen/PeRjNb'
+    image: '/images/personality_quiz.png'
   },
   {
     title: 'Food Recipe Generator',
     tags: [TAGS.JAVASCRIPT, TAGS.CSS, TAGS.HTML],
-    description:
-      'A simple recipe generator.',
+    description: 'A simple recipe generator.',
     link: {
       github: 'https://github.com/edubz99/food-recipes',
       preview: 'https://codepen.io/edubz99/pen/gjOLKq'
@@ -268,11 +266,7 @@ export const PROJECTS = [
   },
   {
     title: 'Google Clone',
-    tags: [
-      TAGS.JAVASCRIPT,
-      TAGS.HTML,
-      TAGS.CSS
-    ],
+    tags: [TAGS.JAVASCRIPT, TAGS.HTML, TAGS.CSS],
     description: 'Google clone with colour randomiser and night mode',
     link: {
       preview: 'https://codepen.io/edubz99/pen/mxvzjz'
@@ -289,4 +283,4 @@ export const PROJECTS = [
     },
     image: '/images/weather_app.png'
   }
-]
+];
