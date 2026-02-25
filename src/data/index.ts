@@ -1,34 +1,34 @@
-import { GitHubIcon } from '@/components/icons/github';
-import { LinkedInIcon } from '@/components/icons/linkedin';
-import { XIcon } from '@/components/icons/x';
-import { CSSIcon } from '@/components/icons/tags/css';
-import { HTMLIcon } from '@/components/icons/tags/html';
-import { JavaScriptIcon } from '@/components/icons/tags/javascript';
-import { NextJSIcon } from '@/components/icons/tags/nextjs';
-import { OpenAIIcon } from '@/components/icons/tags/openai';
-import { ReactIcon } from '@/components/icons/tags/react';
-import { SWCIcon } from '@/components/icons/tags/swc';
-import { TypeScriptIcon } from '@/components/icons/tags/typescript';
-import { ViteIcon } from '@/components/icons/tags/vite';
-import { ShadcnIcon } from '@/components/icons/tags/shadcn-ui';
-import { TailwindCSSIcon } from '@/components/icons/tags/tailwind-css';
-import { AstroIcon } from '@/components/icons/tags/astro';
-import { SvelteIcon } from '@/components/icons/tags/svelte';
-import { NodeJSIcon } from '@/components/icons/tags/nodejs';
-import { VitestIcon } from '@/components/icons/tags/vitest';
-import { BootstrapIcon } from '@/components/icons/tags/bootstrap';
-import { SupabaseIcon } from '@/components/icons/tags/supabase';
-import { ReduxIcon } from '@/components/icons/tags/redux';
-import { PNPMIcon } from '@/components/icons/tags/pnpm';
-import { VercelIcon } from '@/components/icons/tags/vercel';
-import { BasehubIcon } from '@/components/icons/tags/basehub';
-import { GraphQLIcon } from '@/components/icons/tags/graphql';
-import { MailIcon } from 'lucide-react';
+import { GitHubIcon } from '@/components/icons/github'
+import { LinkedInIcon } from '@/components/icons/linkedin'
+import { XIcon } from '@/components/icons/x'
+import { CSSIcon } from '@/components/icons/tags/css'
+import { HTMLIcon } from '@/components/icons/tags/html'
+import { JavaScriptIcon } from '@/components/icons/tags/javascript'
+import { NextJSIcon } from '@/components/icons/tags/nextjs'
+import { OpenAIIcon } from '@/components/icons/tags/openai'
+import { ReactIcon } from '@/components/icons/tags/react'
+import { SWCIcon } from '@/components/icons/tags/swc'
+import { TypeScriptIcon } from '@/components/icons/tags/typescript'
+import { ViteIcon } from '@/components/icons/tags/vite'
+import { ShadcnIcon } from '@/components/icons/tags/shadcn-ui'
+import { TailwindCSSIcon } from '@/components/icons/tags/tailwind-css'
+import { AstroIcon } from '@/components/icons/tags/astro'
+import { SvelteIcon } from '@/components/icons/tags/svelte'
+import { NodeJSIcon } from '@/components/icons/tags/nodejs'
+import { VitestIcon } from '@/components/icons/tags/vitest'
+import { BootstrapIcon } from '@/components/icons/tags/bootstrap'
+import { SupabaseIcon } from '@/components/icons/tags/supabase'
+import { ReduxIcon } from '@/components/icons/tags/redux'
+import { PNPMIcon } from '@/components/icons/tags/pnpm'
+import { VercelIcon } from '@/components/icons/tags/vercel'
+import { BasehubIcon } from '@/components/icons/tags/basehub'
+import { GraphQLIcon } from '@/components/icons/tags/graphql'
+import { MailIcon } from 'lucide-react'
 
 export const AVATAR = {
   name: 'Evans Dube',
   initials: 'ED'
-};
+}
 
 export const ABOUT = {
   title: `Frontend Engineer, Problem Solver and Enthusiastic Learner.
@@ -36,7 +36,7 @@ export const ABOUT = {
   description: `Passionate about creating innovative tech solutions for impact.
  Focused on leveraging advanced frontend technologies to enhance accessibility and performance in web applications.
   My main goal is to enhance user experience, making the web a better place for everyone.`
-};
+}
 
 export const LINKS = [
   {
@@ -59,7 +59,7 @@ export const LINKS = [
     url: `mailto:${process.env.EMAIL_RECEIVER}`,
     icon: MailIcon
   }
-];
+]
 
 export const CAREER = [
   {
@@ -121,7 +121,7 @@ export const CAREER = [
     description:
       'Custom Wordpress theme developmen and Front-end development. Migrating from legendary code and refactoring.'
   }
-];
+]
 
 const TAGS = {
   NEXT: {
@@ -212,7 +212,7 @@ const TAGS = {
     name: 'GraphQL',
     icon: GraphQLIcon
   }
-};
+}
 
 export const PROJECTS = [
   {
@@ -283,4 +283,4 @@ export const PROJECTS = [
     },
     image: '/images/weather_app.png'
   }
-];
+]
